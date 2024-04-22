@@ -1,0 +1,44 @@
+h1{
+    color: palevioletred; /*color del titulo*/
+    background-color: pink;
+    text-align: center;
+    text-transform: uppercase;
+}
+p{
+    color: gray;
+}
+.destacados {/* esto es una clase.id es mas especifico, es unico*/
+    color:dimgray;
+    font-weight: bold; /*negrita*/
+    font-style: italic; /*estilo italica*/
+    font-size: 15px;
+}
+/*para destacar algo dentro de un parrafo se usa span*/
+#rosa{
+    width: 350px ;
+    height: 200px;
+    background-color: pink ;
+    padding: 20px;
+    box-sizing: border-box; /*me respeta el tamaño de la caja*/
+    border: 5px solid palevioletred;/*si no estuviera lo anterior se agrandaria mas y mas*/
+    margin-left: 50px;/*para separarlo de lo otro, en este caso left*/
+
+}
+
+#rosa p{ /*las p dentro del cuadro*/
+    color: white;
+}
+#rosaclaro{
+    width: 350px ;
+    height: 200px;
+    background-color:lightpink ;
+}
+#rosaclaro p{
+    color: white;
+}
+/*
+padding: 20px; >>todos son iguales
+padding: 10px 20px; >>10 arriba/abajo y 20 dereecha/izq
+padding 10px 20px 5px; >> 10 arriba, 20 laterales y 5 abajo
+padding 10px 15px 20px 25px; >> 10 arriba, 15 derecha, 20 abajo y 25 izquierda.
+*/
