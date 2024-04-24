@@ -1,0 +1,27 @@
+/*font-family: "Merriweather", serif;
+ font-family: "Kanit", sans-serif;*/
+.texto{
+    background-color: pink;
+    column-count: 2;/*cantidad de columnas*/
+    column-gap: 60px;
+    column-rule: 3px solid white;
+    text-align: center;
+    box-shadow: 10px 10px 5px 1px rgb(219, 177, 206);
+}
+
+.texto p{
+    margin: 0;
+
+}
+
+h1,h2{
+    font-family: "Merriweather", serif;
+}
+p{
+    font-family: "Kanit", sans-serif;
+}
+/*clases mias*/
+.iconos{
+    color:lightpink
+} 
+,
