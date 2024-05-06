@@ -1,0 +1,19 @@
+.contenedor{
+    background-color: darkgrey;
+    /*display: flex;*/
+    display: inline-flex;
+    flex-wrap: nowrap;/*viene por defecto, no hay desbordamiento*/
+    flex-wrap: wrap;/*multilinea*/
+    flex-wrap: wrap-reverse;
+
+
+}
+
+.item{
+    background-color: pink;
+    width: 300px;/*ancho*/
+    height: 100px;
+    margin: 10px;
+    color: white;
+    font-size: 30px;
+}

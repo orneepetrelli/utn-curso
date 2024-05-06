@@ -1,0 +1,15 @@
+.contenedor{
+    background-color: darkgrey;
+    /*display: flex;*/
+    /*las pone horizontl y las cajas se achican en todas en la misma vista,fondo gris largo que se acomodan a medida que lo agrande*/
+    display: inline-flex;/*el contenedor se adapto a las cajas, yestas no se achican como en solo flex, aparece la barrita para mover abajo , por eso no se achican, se acomodan directamente en la barra*/
+}
+
+.item{
+    background-color: pink;
+    width: 100px;
+    height: 100px;
+    margin: 10px;/*si saco el margen las cjas quedan pegaditas*/
+    color: white;
+
+}

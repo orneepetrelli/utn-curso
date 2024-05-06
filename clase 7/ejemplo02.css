@@ -1,0 +1,18 @@
+.contenedor{
+    background-color: darkgrey;
+    /*display: flex;*/
+    display: inline-flex;
+    /*flex-direction: row;/*viene por defecto */
+    /*flex-direction: row-reverse;invertir fila*/
+    /*flex-direction: column;*/
+    flex-direction: column-reverse;
+}
+
+.item{
+    background-color: pink;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    color: white;
+    font-size: 30px;
+}

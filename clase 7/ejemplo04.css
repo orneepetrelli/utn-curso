@@ -1,0 +1,18 @@
+.contenedor{
+    background-color: darkgrey;
+    display: flex;/*siempre que sea alineacion usar solo flex*/
+    justify-content: flex-start;/*por defecto,alineados al principio, todos a la izquierda*/
+    justify-content: flex-end;/*van a la derecha todos*/
+    justify-content: center;/*se achiquen o se garanden wuedan en el medio*/
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly;
+}
+
+.item{
+    background-color: pink;
+    width: 100px;
+    height: 100px;
+    color: white;
+    font-size: 30px;
+}

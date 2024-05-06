@@ -1,0 +1,22 @@
+.contenedor{
+    background-color: darkgrey;
+    /*display: flex;*/
+    display: inline-flex;
+    height: 600px;
+    flex-wrap: wrap;
+    align-content: flex-start;/*por defecto,todos arriba*/
+    align-content: flex-end;/*abajo*/
+    align-content: center;
+    align-content: space-between;
+    align-content: space-around;
+    align-content: space-evenly;
+}
+
+.item{
+    background-color: pink;
+    width: 300px;
+    height: 100px;
+    color: white;
+    font-size: 30px;
+    margin: 10px
+}

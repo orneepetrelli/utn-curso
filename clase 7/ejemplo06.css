@@ -1,0 +1,23 @@
+.contenedor{
+    background-color: darkgrey;
+    /*display: flex;*/
+    display: inline-flex;
+    height: 600px;
+    flex-wrap: wrap;
+    align-items: flex-start;/*por defceto*/
+    align-items: flex-end;
+    align-items: center;
+    /*align-items: stretch;*//*estira la caja*/
+}
+
+.item{
+    background-color: pink;
+    width: 100px;
+    height: 100px;
+    color: white;
+    font-size: 30px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
