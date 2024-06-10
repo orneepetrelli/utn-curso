@@ -1,0 +1,13 @@
+.cuadrado{
+    height: 100px;
+    width: 100px;
+    /*background-color:violet;*/
+}
+
+.cuadrado.rojo{
+    background-color: pink;
+}
+
+.cuadrado.borde{
+    border: 2px solid black;
+}

@@ -1,0 +1,16 @@
+.boton{
+    padding: 20px;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.alternar{
+    background-color: pink;
+}
+
+.alternar.activo{/*este activo no esta declardo en html , entonces js es el encanrgado de decir cual es*/
+    background-color: violet;
+    color: white;/*de la fuente*/
+}
